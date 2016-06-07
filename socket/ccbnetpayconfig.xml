@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 中国建设银行商户通知验签配置文件 -->
+
+<ccbnetpayconfig>
+
+<!-- 通讯端口1024~65535之间未被使用的端口 -->
+  <commport>
+       <value>55535</value>
+   </commport>
+
+<!-- 验签程序的线程数 -->
+   <maxconn>
+       <value>5</value>
+   </maxconn>
+
+<!-- 商户若有多个柜台，可按照不同的柜台号配置不同的公钥 -->
+<merpos>
+
+	<!-- 商户柜台号b2c -->
+	<posid>652468641</posid>
+		<!-- 对应的公钥 -->
+    <pubkey>30819d300d06092a864886f70d010101050003818b00308187028181008a87ff9f9c75e2cffc7ae2386c87272fdef12e44ad839d12257f84e6efc7e7ed338f09261632ab6a8c9a4446efb867cf7528f61906a2d3ff2aa198ba71dcaab17bcc58d72b595daa2932a050cf49fad9de9bb2631ec8f424ad73e5e5da6be14caad0766bc22ea258c8b18c888ed7d04bfdd2addaf93dbca7a4da852854a2d817020113</pubkey>
+</merpos>
+
+<merpos>
+	<!-- 商户柜台号-手机支付 -->
+	<posid>801428228</posid>
+	
+	<pubkey>30819c300d06092a864886f70d010101050003818a00308186028180547687c9556332a1d436255e1096a393f3da3a451290502d1fb82f01b47655a4e53f3139d5fca3aca5781eb95c9c58ebad060adfe9d96f2ba8aaa4e8b060384c59edb4f613c06a2fc99ba7ba0690f88a0715bcd2711049e3751a29a1cc33176d7e83b60a079ce754ccf78fe49bd7752004ad77e97f2f5b55df46fe03a37e207b020111</pubkey>
+</merpos>
+
+</ccbnetpayconfig>
