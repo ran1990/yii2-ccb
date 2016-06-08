@@ -1,17 +1,6 @@
 {
-    "name": "ran2016/yii2-ccb",
-    "type": "library",
+    "name": "life2016/yii2-ccb",
     "description": "ccb",
-    "keywords": [
-        "ccb"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "ran",
-            "email": "r503948796@163.com"
-        }
-    ],
 	"minimum-stability": "stable",
     "require": {
         "php": ">=5.3.0"
